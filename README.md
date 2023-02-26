@@ -3,7 +3,7 @@
 ## 並べ替え文の作成
      python new_make_pre.py -s /path/to/source -t /path/to/target -a /path/to/tgt-src-alignment -o /path/to/output_dir
      
-ただし、nttの中日データを使うとき、和文があるので、以下のものを使ってください 
+ただし、nttの中日データを使うとき、日本語側の和文数字とかが一つの単語にされていないので、以下のものを使ってください 
 
      new_make_pre_for_ja.py -s /path/to/source -t /path/to/target -a /path/to/tgt-src-alignment -o /path/to/output_dir
      
